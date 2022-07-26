@@ -1,0 +1,36 @@
+ {
+    "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+    "rushVersion": "5.55.0",
+    "pnpmVersion": "6.7.1",
+    // "pnpmOptions": {
+    //   "useWorkspaces": true
+    // },
+    "projectFolderMaxDepth": 5,
+    "gitPolicy": {
+    },
+  
+    "repository": {
+      "url": ""
+    },
+    "eventHooks": {
+      "preRushInstall": [
+      ],
+      "postRushBuild": []
+    },
+    "variants": [
+    ],
+    "projects": [
+        {
+            "packageName": "@selendra/type-definitions",
+            "projectFolder": "packages/type-definitions",
+            "reviewCategory": "tests",
+            "shouldPublish": false
+        }
+      //   {
+      //     "packageName": "example",
+      //     "projectFolder": "packages/example",
+      //     "reviewCategory": "tests",
+      //     "shouldPublish": false
+      // }
+    ]
+  }

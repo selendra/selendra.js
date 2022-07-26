@@ -1,0 +1,13 @@
+{
+  "name": "@selendra/type-definitions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "selendra-type",
+  "author": "selendra <info@selendra.org>",
+  "private": false,
+  "dependencies": {
+    "@open-web3/orml-type-definitions": "^2.0.1",
+    "@polkadot/types": "^8.14.1"
+  }
+}
