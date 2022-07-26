@@ -4,11 +4,13 @@ specifiers:
   '@open-web3/orml-type-definitions': ^2.0.1
   '@polkadot/types': ^8.14.1
   '@rush-temp/type-definitions': file:./projects/type-definitions.tgz
+  typescript: ^4.7.4
 
 dependencies:
   '@open-web3/orml-type-definitions': 2.0.1
   '@polkadot/types': 8.14.1
   '@rush-temp/type-definitions': file:projects/type-definitions.tgz
+  typescript: 4.7.4
 
 packages:
 
@@ -287,11 +289,18 @@ packages:
     resolution: {integrity: sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==}
     dev: false
 
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
   file:projects/type-definitions.tgz:
-    resolution: {integrity: sha512-VayqUoX7L52D+N//YoSrLEMmXbzpDexidtrdEYyE/dcsCg040c/jY/0yPjRwesqiNouSYaNcOMqvqahmc+BVLA==, tarball: file:projects/type-definitions.tgz}
+    resolution: {integrity: sha512-6fG3zeeOgkmRlKPl1v3JFKRQ3Dhp5IdHz1u4SgBjYwbua4Iy+yKU6Oezb/RB23t3MPGiMwsEBb7evmPXJurFCg==, tarball: file:projects/type-definitions.tgz}
     name: '@rush-temp/type-definitions'
     version: 0.0.0
     dependencies:
       '@open-web3/orml-type-definitions': 2.0.1
       '@polkadot/types': 8.14.1
+      typescript: 4.7.4
     dev: false

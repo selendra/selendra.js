@@ -6,8 +6,14 @@
   "description": "selendra-type",
   "author": "selendra <info@selendra.org>",
   "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@open-web3/orml-type-definitions": "^2.0.1",
     "@polkadot/types": "^8.14.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }

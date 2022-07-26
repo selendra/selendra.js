@@ -8,7 +8,6 @@
     "projectFolderMaxDepth": 5,
     "gitPolicy": {
     },
-  
     "repository": {
       "url": ""
     },
@@ -20,17 +19,11 @@
     "variants": [
     ],
     "projects": [
-        {
-            "packageName": "@selendra/type-definitions",
-            "projectFolder": "packages/type-definitions",
-            "reviewCategory": "tests",
-            "shouldPublish": false
-        }
-      //   {
-      //     "packageName": "example",
-      //     "projectFolder": "packages/example",
-      //     "reviewCategory": "tests",
-      //     "shouldPublish": false
-      // }
+      {
+        "packageName": "@selendra/type-definitions",
+        "projectFolder": "packages/type-definitions",
+        "reviewCategory": "tests",
+        "shouldPublish": false
+      }
     ]
   }
