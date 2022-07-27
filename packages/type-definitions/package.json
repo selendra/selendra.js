@@ -1,0 +1,23 @@
+{
+  "name": "@selendra/type-definitions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "selendra-type",
+  "author": "selendra <info@selendra.org>",
+  "private": false,
+  "scripts": {
+    "build": "heft build --clean",
+    "build:watch": "heft build"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-config": "~2.5.4",
+    "@rushstack/heft": "~0.44.13",
+    "ts-node": "~10.7.0",
+    "typescript": "~4.6.3"
+  },
+  "dependencies": {
+    "@open-web3/orml-type-definitions": "^2.0.1",
+    "@polkadot/types": "^8.5.1"
+  } 
+}
