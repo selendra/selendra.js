@@ -2,9 +2,9 @@
     "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
     "rushVersion": "5.55.0",
     "pnpmVersion": "6.7.1",
-    // "pnpmOptions": {
-    //   "useWorkspaces": true
-    // },
+    "pnpmOptions": {
+      "useWorkspaces": true
+    },
     "projectFolderMaxDepth": 5,
     "gitPolicy": {
     },
@@ -22,6 +22,12 @@
       {
         "packageName": "@selendra/type-definitions",
         "projectFolder": "packages/type-definitions",
+        "reviewCategory": "tests",
+        "shouldPublish": false
+      },
+      {
+        "packageName": "@selendra/types",
+        "projectFolder": "packages/types",
         "reviewCategory": "tests",
         "shouldPublish": false
       }

@@ -13,7 +13,6 @@ export default {
         // 20 - 39: External tokens (e.g. bridged)
         RENBTC: 20,
         DAI: 21,
-        // 40 - 127: Polkadot parachain tokens
 
         // 128 - 147: Karura & Kusama native tokens
         KSM: 130,

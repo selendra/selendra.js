@@ -19,7 +19,6 @@ import renvmBridge from './renvmBridge';
 import runtime from './runtime';
 import { signedExtensions as selendraSignedExtensions } from './signedExtensions';
 import stableAsset from './stableAsset';
-import stakingPool from './stakingPool';
 import support from './support';
 
 import selendraVersioned from './spec/selendra';
@@ -42,7 +41,6 @@ const selendraDefs = {
   loans,
   nft,
   runtime,
-  stakingPool,
   support,
 
   // ecosystem

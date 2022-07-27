@@ -161,31 +161,6 @@
                         "method": "estimateResources",
                         "section": "evm"
                     }
-                },
-                "stakingPool": {
-                    "getAvailableUnbonded": {
-                        "description": "Get Available Unbonded",
-                        "params": [
-                            {
-                                "name": "account",
-                                "type": "AccountId"
-                            }
-                        ],
-                        "type": "BalanceInfo",
-                        "isSubscription": false,
-                        "jsonrpc": "stakingPool_getAvailableUnbonded",
-                        "method": "getAvailableUnbonded",
-                        "section": "stakingPool"
-                    },
-                    "getLiquidStakingExchangeRate": {
-                        "description": "get liquid staking exchange rate",
-                        "params": [],
-                        "type": "ExchangeRate",
-                        "isSubscription": false,
-                        "jsonrpc": "stakingPool_getLiquidStakingExchangeRate",
-                        "method": "getLiquidStakingExchangeRate",
-                        "section": "stakingPool"
-                    }
                 }
             },
             "instances": {
@@ -493,58 +468,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -856,58 +791,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -1217,58 +1112,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -1579,58 +1434,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -1943,58 +1758,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -2307,58 +2082,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -2671,58 +2406,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -3033,58 +2728,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -3395,58 +3050,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -3757,58 +3372,18 @@
                                 "Any",
                                 "CancelProxy",
                                 "Governance",
+                                "Staking",
+                                "IdentityJudgement",
                                 "Auction",
                                 "Swap",
-                                "Loan"
+                                "Loan",
+                                "DexLiquidity",
+                                "StableAssetSwap",
+                                "StableAssetLiquidity"
                             ]
                         },
                         "AtLeast64BitUnsigned": "u128",
                         "StableAssetPoolId": "u32",
-                        "RelayChainBlockNumberOf": "RelayChainBlockNumber",
-                        "SubAccountStatus": {
-                            "bonded": "Balance",
-                            "available": "Balance",
-                            "unbonding": "Vec<(EraIndex,Balance)>",
-                            "mockRewardRate": "Rate"
-                        },
-                        "Params": {
-                            "targetMaxFreeUnbondedRatio": "Ratio",
-                            "targetMinFreeUnbondedRatio": "Ratio",
-                            "targetUnbondingToFreeRatio": "Ratio",
-                            "unbondingToFreeAdjustment": "Ratio",
-                            "baseFeeRate": "Rate"
-                        },
-                        "StakingPoolPhase": {
-                            "_enum": [
-                                "Started",
-                                "RelaychainUpdated",
-                                "LedgerUpdated",
-                                "Finished"
-                            ]
-                        },
-                        "Ledger": {
-                            "bonded": "Balance",
-                            "unbondingToFree": "Balance",
-                            "freePool": "Balance",
-                            "toUnbondNextEra": "(Balance, Balance)"
-                        },
-                        "ChangeRate": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Rate"
-                            }
-                        },
-                        "ChangeRatio": {
-                            "_enum": {
-                                "NoChange": "Null",
-                                "NewValue": "Ratio"
-                            }
-                        },
-                        "BalanceInfo": {
-                            "amount": "Balance"
-                        },
-                        "PolkadotAccountId": "AccountId",
-                        "PolkadotAccountIdOf": "PolkadotAccountId",
                         "ExchangeRate": "FixedU128",
                         "Rate": "FixedU128",
                         "Ratio": "FixedU128",
@@ -3823,9 +3398,6 @@
                 }
             ],
             "alias": {
-                "stakingPool": {
-                    "Phase": "StakingPoolPhase"
-                },
                 "evm": {
                     "AccountInfo": "EvmAccountInfo",
                     "ContractInfo": "EvmContractInfo"
