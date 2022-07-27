@@ -19,9 +19,8 @@
     "@polkadot/typegen": "^8.5.1",
     "@polkadot/types": "^8.5.1",
     "@types/websocket": "^1.0.0",
-    "websocket": "^1.0.31"
-  },
-  "peerDependencies": {
-    "@polkadot/api": ">=8"
+    "websocket": "^1.0.31",
+    "ts-node": "~10.7.0",
+    "typescript": "~4.6.3"
   }
 }
