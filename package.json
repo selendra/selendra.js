@@ -5,9 +5,7 @@
       "yarn": "^1.10.1"
     },
     "workspaces": [
-      "packages/types",
-      "packages/type-definitions",
-      "packages/eth-transactions"
+      "packages/*"
     ],
     "scripts": {
         "build": "tsc"

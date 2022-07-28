@@ -13,7 +13,13 @@
         ],
         "@selendra/eth-transactions/*": [
           "packages/eth-transactions/src/*"
-      ],
+        ],
+        "@selendra/eth-providers/*": [
+          "packages/eth-providers/src/*"
+        ],
+        "@selendra/eth-rpc-adapter/*": [
+          "packages/eth-rpc-adapter/src/*"
+        ],
       },
       "skipLibCheck": true,
       "typeRoots": [
