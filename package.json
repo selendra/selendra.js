@@ -10,7 +10,7 @@
       "packages/eth-transactions"
     ],
     "scripts": {
-        "build": "yarn build"
+        "build": "tsc"
       },
     "devDependencies": {
         "@babel/core": "^7.14.3",
