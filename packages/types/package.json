@@ -15,9 +15,9 @@
     "@open-web3/orml-types": "^1.1.4"
   },
   "devDependencies": {
-    "@polkadot/api": "^8.5.1",
-    "@polkadot/typegen": "^8.5.1",
-    "@polkadot/types": "^8.5.1",
+    "@polkadot/api": "^8.14.1",
+    "@polkadot/typegen": "^8.14.1",
+    "@polkadot/types": "^8.14.1",
     "@types/websocket": "^1.0.0",
     "websocket": "^1.0.31",
     "ts-node": "~10.7.0",
