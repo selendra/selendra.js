@@ -5,8 +5,8 @@
       "yarn": "^1.10.1"
     },
     "workspaces": [
-      "packages/type-definitions",
       "packages/types",
+      "packages/type-definitions",
       "packages/eth-transactions",
       "packages/eth-providers",
       "packages/eth-rpc-adapter"
