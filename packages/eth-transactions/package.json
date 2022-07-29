@@ -10,8 +10,6 @@
   },
   "devDependencies": {
     "@metamask/eth-sig-util": "~4.0.0",
-    "@rushstack/eslint-config": "~2.5.4",
-    "@rushstack/heft": "~0.44.13",
     "@types/chai": "~4.2.22",
     "@types/mocha": "~9.0.0",
     "chai": "~4.3.4",
@@ -30,6 +28,6 @@
     "@ethersproject/rlp": "~5.5.0",
     "@ethersproject/transactions": "~5.5.0",
     "@ethersproject/wallet": "~5.5.0",
-    "@polkadot/util-crypto": "^9.0.1"
+    "@polkadot/util-crypto": "^10.1.1"
   }
 }
