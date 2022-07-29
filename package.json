@@ -12,8 +12,9 @@
       "packages/eth-rpc-adapter"
     ],
     "scripts": {
-        "build": "tsc"
-      },
+      "build": "./scripts/build.sh",
+      "evm": "cd packages/eth-rpc-adapter && yarn run start"
+    },
     "devDependencies": {
         "@babel/core": "^7.14.3",
         "@babel/register": "^7.13.6",
