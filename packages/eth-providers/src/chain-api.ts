@@ -69,14 +69,6 @@ export const createApiOptions = ({
         ...selendraTypesBundle?.spec?.selendra,
         ...typesBundle?.spec?.selendra
       },
-      mandala: {
-        ...selendraTypesBundle?.spec?.mandala,
-        ...typesBundle?.spec?.mandala
-      },
-      karura: {
-        ...selendraTypesBundle?.spec?.karura,
-        ...typesBundle?.spec?.mandala
-      }
     }
   },
   signedExtensions: {
