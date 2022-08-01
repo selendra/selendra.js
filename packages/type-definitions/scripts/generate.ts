@@ -1,4 +1,4 @@
-import { types, typesBundleForPolkadot, rpc } from '../lib';
+import { types, typesBundleForPolkadot, rpc } from '../dist';
 import fs from 'fs';
 
 fs.writeFileSync('/home/msi/Project/selendra.js/packages/type-definitions/src/json/types.json', JSON.stringify(types, null, 4));
