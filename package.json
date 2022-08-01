@@ -5,11 +5,7 @@
       "yarn": "^1.10.1"
     },
     "workspaces": [
-      "packages/types",
-      "packages/type-definitions",
-      "packages/eth-transactions",
-      "packages/eth-providers",
-      "packages/eth-rpc-adapter"
+      "packages/*"
     ],
     "scripts": {
       "build": "./scripts/build.sh",
