@@ -1,0 +1,3 @@
+import type { ExtDef } from '@polkadot/types/extrinsic/signedExtensions/types';
+export declare const signedExtensions: ExtDef;
+//# sourceMappingURL=index.d.ts.map

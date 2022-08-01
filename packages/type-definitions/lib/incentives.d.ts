@@ -1,0 +1,20 @@
+declare const _default: {
+    rpc: {};
+    types: {
+        PoolId: {
+            _enum: {
+                Loans: string;
+                Dex: string;
+            };
+        };
+        PoolIdV0: {
+            _enum: {
+                LoansIncentive: string;
+                DexIncentive: string;
+                DexSaving: string;
+            };
+        };
+    };
+};
+export default _default;
+//# sourceMappingURL=incentives.d.ts.map

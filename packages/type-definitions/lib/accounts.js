@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
+    rpc: {},
+    types: {
+        PalletBalanceOf: 'Balance'
+    }
+};
+//# sourceMappingURL=accounts.js.map

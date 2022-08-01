@@ -71,7 +71,6 @@ common/autoinstallers/*/.npmrc
 .heft
 
 dist
-lib
 **/temp
 
 # rush temp file

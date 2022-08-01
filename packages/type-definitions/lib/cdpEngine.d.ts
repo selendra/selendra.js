@@ -1,0 +1,37 @@
+declare const _default: {
+    rpc: {};
+    types: {
+        LiquidationStrategy: {
+            _enum: string[];
+        };
+        OptionRate: string;
+        OptionRatio: string;
+        ChangeOptionRate: {
+            _enum: {
+                NoChange: string;
+                NewValue: string;
+            };
+        };
+        ChangeOptionRatio: {
+            _enum: {
+                NoChange: string;
+                NewValue: string;
+            };
+        };
+        ChangeBalance: {
+            _enum: {
+                NoChange: string;
+                NewValue: string;
+            };
+        };
+        RiskManagementParams: {
+            maximumTotalDebitValue: string;
+            interestRatePerSec: string;
+            liquidationRatio: string;
+            liquidationPenalty: string;
+            requiredCollateralRatio: string;
+        };
+    };
+};
+export default _default;
+//# sourceMappingURL=cdpEngine.d.ts.map

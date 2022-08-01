@@ -1,0 +1,8 @@
+declare const _default: {
+    rpc: {};
+    types: {
+        CandidateInfoOf: string;
+    };
+};
+export default _default;
+//# sourceMappingURL=collatorSelection.d.ts.map
