@@ -1,4 +1,4 @@
-import { EvmRpcProvider } from '@selendra/eth-providers';
+import { EvmRpcProvider } from '@selendra/eth-providers/lib';
 import HTTPServerTransport from './transports/http';
 import WebSocketServerTransport from './transports/websocket';
 import { Eip1193Bridge } from './eip1193-bridge';

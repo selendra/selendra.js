@@ -1,1 +1,0 @@
-{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/interfaces/loans/types.ts"],"names":[],"mappings":"AAGA,OAAO,KAAK,EAAE,OAAO,EAAE,MAAM,YAAY,CAAC;AAC1C,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,uBAAuB,CAAC;AAEpD,qBAAqB;AACrB,MAAM,WAAW,QAAS,SAAQ,MAAM;IACtC,QAAQ,CAAC,UAAU,EAAE,OAAO,CAAC;IAC7B,QAAQ,CAAC,KAAK,EAAE,OAAO,CAAC;CACzB;AAED,oBAAY,aAAa,GAAG,OAAO,CAAC"}

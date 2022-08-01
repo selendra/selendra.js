@@ -1,1 +1,0 @@
-{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/interfaces/renvmBridge/types.ts"],"names":[],"mappings":"AAGA,OAAO,KAAK,EAAE,KAAK,EAAE,QAAQ,EAAE,MAAM,uBAAuB,CAAC;AAE7D,wBAAwB;AACxB,MAAM,WAAW,WAAY,SAAQ,KAAK;CAAG;AAE7C,sBAAsB;AACtB,MAAM,WAAW,SAAU,SAAQ,QAAQ;CAAG;AAE9C,oBAAY,mBAAmB,GAAG,aAAa,CAAC"}
