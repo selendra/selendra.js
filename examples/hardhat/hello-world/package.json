@@ -1,0 +1,26 @@
+{
+  "name": "hardhat-tutorial-hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jan Turk",
+  "license": "MIT",
+  "dependencies": {
+    "hardhat": "^2.6.8"
+  },
+  "scripts": {
+    "test": "hardhat test test/HelloWorld.js",
+    "test-selendra": "hardhat test test/HelloWorld.js --network selendra",
+    "build": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy-selendra": "hardhat run scripts/deploy.js --network selendra"
+  },
+  "devDependencies": {
+    "@selendra/eth-providers": "^1.1.3",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@polkadot/api": "8.1.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "~5.5.0"
+  }
+}
