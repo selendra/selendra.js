@@ -1,4 +1,4 @@
-import { ERROR_PATTERN } from '@selendra/eth-providers';
+import { ERROR_PATTERN } from '@selendra/eth-providers/lib';
 import { Logger as EthLogger } from '@ethersproject/logger';
 import WebSocket from 'ws';
 import { Eip1193Bridge } from './eip1193-bridge';

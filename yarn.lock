@@ -2774,18 +2774,6 @@
   resolved "https://registry.yarnpkg.com/@scure/base/-/base-1.1.1.tgz#ebb651ee52ff84f420097055f4bf46cfba403938"
   integrity sha512-ZxOhsSyxYwLJj3pLZCefNitxsj093tb2vq90mp2txoYeBqbcjDjqFhyM8eUjq/uFm6zJ+mUuqxlS2FkuSY1MTA==
 
-"@selendra/eth-providers@file:packages/eth-providers/lib":
-  version "0.0.0"
-
-"@selendra/eth-transactions@file:packages/eth-transactions/lib":
-  version "0.0.0"
-
-"@selendra/type-definitions@file:packages/type-definitions/lib":
-  version "0.0.0"
-
-"@selendra/types@file:packages/types/lib":
-  version "0.0.0"
-
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"

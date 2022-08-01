@@ -4,7 +4,7 @@ import {
   types as selendraTypes,
   typesAlias as selendraTypesAlias,
   typesBundle as selendraTypesBundle
-} from '@selendra/types';
+} from '@selendra/types/lib';
 import { ApiPromise, WsProvider } from '@polkadot/api';
 import type { ApiOptions } from '@polkadot/api/types';
 

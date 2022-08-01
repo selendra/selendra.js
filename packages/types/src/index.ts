@@ -4,7 +4,7 @@ import {
   typesAlias as selendraTypeAlias,
   rpc as selendraRpc,
   signedExtensions as selendraSignedExtensions
-} from '@selendra/type-definitions';
+} from '@selendra/type-definitions/lib';
 import {
   OverrideBundleType,
   OverrideModuleType,
