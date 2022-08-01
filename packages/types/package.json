@@ -1,15 +1,20 @@
 {
   "name": "@selendra/types",
-  "version": "4.1.6-20",
+  "version": "1.1.2",
   "description": "Polkadot.js type definations for Selendra",
-  "main": "index.js",
-  "author": "Selendra <info@selendra.org>",
   "license": "Apache-2.0",
+  "author": "Selendra <info@selendra.org>",
+  "repository": "https://github.com/selendra/selendra.js.git",
+  "bugs": {
+    "url": "https://github.com/selendra/selendra.js/issues"
+  },
+  "homepage": "https://github.com/selendra/selendra.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "@selendra/type-definitions": "file:../type-definitions/lib",
+    "@selendra/type-definitions": "1.1.2",
     "@babel/runtime": "^7.10.2",
     "@open-web3/api-mobx": "^1.1.4",
     "@open-web3/orml-types": "^1.1.4"
