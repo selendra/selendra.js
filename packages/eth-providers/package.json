@@ -1,6 +1,6 @@
 {
   "name": "@selendra/eth-providers",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "license": "Apache-2.0",
   "author": "Selendra <info@selendra.org>",
   "repository": "https://github.com/selendra/selendra.js.git",
@@ -13,7 +13,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@selendra/types": "1.1.2",
+    "@selendra/types": "file:../types/lib",
     "@selendra/eth-transactions": "file:../eth-transactions/lib",
     "@ethersproject/abstract-provider": "~5.5.0",
     "@ethersproject/address": "~5.5.0",

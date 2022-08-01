@@ -1,1 +1,1 @@
-export const version: string = 'eth-rpc-adapter/1.0.0';
+export const version: string = 'eth-rpc-adapter/1.1.3';

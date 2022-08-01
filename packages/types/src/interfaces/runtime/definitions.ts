@@ -1,6 +1,6 @@
 import definitions from '@polkadot/types/interfaces/runtime/definitions';
 import type { Definitions } from '@polkadot/types/types';
-import runtime from '@selendra/type-definitions/lib/runtime';
+import runtime from '@selendra/type-definitions/runtime';
 
 export default {
   rpc: {},

@@ -1,4 +1,4 @@
-import { EvmRpcProvider } from '@selendra/eth-providers/lib';
+import { EvmRpcProvider } from '@selendra/eth-providers';
 import EventEmitter from 'events';
 import { MethodNotFound } from './errors';
 import WebSocket from 'ws';

@@ -1,5 +1,5 @@
-import { SelendraEvmTX, checkSignatureType, parseTransaction } from '@selendra/eth-transactions/lib';
-import type { EvmAccountInfo, EvmContractInfo } from '@selendra/types/lib/interfaces';
+import { SelendraEvmTX, checkSignatureType, parseTransaction } from '@selendra/eth-transactions';
+import type { EvmAccountInfo, EvmContractInfo } from '@selendra/types/interfaces';
 import {
   Block,
   BlockWithTransactions,

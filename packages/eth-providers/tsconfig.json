@@ -5,8 +5,10 @@
     "compilerOptions": {
       "outDir": "lib",
       "rootDirs": ["src", "/node_modules"],
+  
       "declaration": true,
-      "declarationMap": true, 
+      "declarationMap": true,
+  
       "module": "commonjs",
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": true,

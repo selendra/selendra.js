@@ -4,6 +4,7 @@
   },
   "compilerOptions": {
     "outDir": "lib",
+    "rootDirs": ["src", "/node_modules"],
     "declaration": true,
     "declarationMap": true,
     "module": "commonjs",

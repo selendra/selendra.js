@@ -1,4 +1,4 @@
-import { EvmRpcProvider, hexlifyRpcResult, TX } from '@selendra/eth-providers/lib';
+import { EvmRpcProvider, hexlifyRpcResult, TX } from '@selendra/eth-providers';
 import { PROVIDER_ERRORS } from '@selendra/eth-providers/lib/utils';
 import { Log, TransactionReceipt } from '@ethersproject/abstract-provider';
 import { Signer } from '@ethersproject/abstract-signer';
