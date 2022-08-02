@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/msi/Project/hardhat-tutorials/hello-world/contracts/HelloWorld.sol": {
+    "/home/msi/Project/selendra.js/examples/hardhat/hello-world/contracts/HelloWorld.sol": {
       "lastModificationDate": 1659238666771,
       "contentHash": "77f72e90463dedabd4de758e006d288d",
       "sourceName": "contracts/HelloWorld.sol",
