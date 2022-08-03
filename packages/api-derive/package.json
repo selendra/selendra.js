@@ -1,7 +1,7 @@
 {
-  "name": "@selendra/type-definitions",
+  "name": "@selendra/api-derive",
   "version": "1.2.3",
-  "description": "Polkadot.js type definations for Selendra",
+  "description": "Additional polkadot.js derives for Selendra Network",
   "main": "index.js",
   "author": "Selendra <info@selendra.org>",
   "license": "Apache-2.0",
@@ -15,6 +15,9 @@
   },
   "homepage": "https://github.com/selendra/selendra.js",
   "dependencies": {
-    "@open-web3/orml-type-definitions": "^1.1.4"
+    "@babel/runtime": "^7.10.2",
+    "@open-web3/orml-types": "^1.1.4",
+    "@polkadot/api-derive": "^8.5.1",
+    "@selendra/types": "1.2.3"
   }
 }

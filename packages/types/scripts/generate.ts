@@ -41,12 +41,12 @@ const customLookupDefinitions = {
   types: require('../src/interfaces/lookup.ts').default
 } as Definitions;
 
-generateTsDef(definations, 'packages/types/src/interfaces', '@selendra/types/interfaces');
-generateInterfaceTypes(definations, 'packages/types/src/interfaces/augment-types.ts');
-generateDefaultConsts('packages/types/src/interfaces/augment-api-consts.ts', metadata, definations, false, customLookupDefinitions);
-generateDefaultLookup('packages/types/src/interfaces', metadata);
+// generateTsDef(definations, 'packages/types/src/interfaces', '@selendra/types/interfaces');
+// generateInterfaceTypes(definations, 'packages/types/src/interfaces/augment-types.ts');
+// generateDefaultConsts('packages/types/src/interfaces/augment-api-consts.ts', metadata, definations, false, customLookupDefinitions);
+// generateDefaultLookup('packages/types/src/interfaces', metadata);
 
-generateDefaultTx('packages/types/src/interfaces/augment-api-tx.ts', metadata, definations, false, customLookupDefinitions);
+// generateDefaultTx('packages/types/src/interfaces/augment-api-tx.ts', metadata, definations, false, customLookupDefinitions);
 // generateDefaultQuery('packages/types/src/interfaces/augment-api-query.ts', metadata, definations, false, customLookupDefinitions);
-generateDefaultRpc('packages/types/src/interfaces/augment-api-rpc.ts', definations);
+// generateDefaultRpc('packages/types/src/interfaces/augment-api-rpc.ts', definations);
 // generateMobx('packages/types/src/interfaces/augment-api-mobx.ts', metaHex, definations);
