@@ -72,7 +72,7 @@ const versioned: OverrideVersionedType[] = [
       ...poolIdV0,
       ...addressV0,
       TokenSymbol: {
-        _enum: ['ACA', 'AUSD', 'DOT', 'XBTC', 'LDOT', 'RENBTC']
+        _enum: ['SEL', 'KUSD', 'LSEL', 'DAI', 'RENBTC', 'KSM', 'DOT']
       }
     }
   },
@@ -83,7 +83,7 @@ const versioned: OverrideVersionedType[] = [
       ...poolIdV0,
       ...addressV1,
       TokenSymbol: {
-        _enum: ['ACA', 'AUSD', 'DOT', 'XBTC', 'LDOT', 'RENBTC']
+        _enum: ['SEL', 'KUSD', 'LSEL', 'DAI', 'RENBTC', 'KSM', 'DOT']
       }
     }
   },
@@ -96,23 +96,13 @@ const versioned: OverrideVersionedType[] = [
       ...currencyV0,
       TokenSymbol: {
         _enum: {
-          ACA: 0,
-          AUSD: 1,
-          DOT: 2,
-          LDOT: 3,
-          XBTC: 4,
-          RENBTC: 5,
-          POLKABTC: 6,
-          PLM: 7,
-          PHA: 8,
-          HDT: 9,
-          BCG: 11,
-          KAR: 128,
-          KUSD: 129,
+          SEL: 0,
+          KUSD: 1,
+          LSEL: 2,
+          RENBTC: 20,
+          DAI: 21,
           KSM: 130,
-          LKSM: 131,
-          SDN: 135,
-          KILT: 138
+          DOT: 131
         }
       }
     }
@@ -126,23 +116,13 @@ const versioned: OverrideVersionedType[] = [
       ...currencyV0,
       TokenSymbol: {
         _enum: {
-          ACA: 0,
-          AUSD: 1,
-          DOT: 2,
-          LDOT: 3,
-          XBTC: 4,
-          RENBTC: 5,
-          POLKABTC: 6,
-          PLM: 7,
-          PHA: 8,
-          HDT: 9,
-          BCG: 11,
-          KAR: 128,
-          KUSD: 129,
+          SEL: 0,
+          KUSD: 1,
+          LSEL: 2,
+          RENBTC: 20,
+          DAI: 21,
           KSM: 130,
-          LKSM: 131,
-          SDN: 135,
-          KILT: 138
+          DOT: 131
         }
       }
     }
@@ -155,18 +135,13 @@ const versioned: OverrideVersionedType[] = [
       ...poolIdV1,
       TokenSymbol: {
         _enum: {
-          ACA: 0,
-          AUSD: 1,
-          DOT: 2,
-          LDOT: 3,
-          RENBTC: 4,
-
-          KAR: 128,
-          KUSD: 129,
+          SEL: 0,
+          KUSD: 1,
+          LSEL: 2,
+          RENBTC: 20,
+          DAI: 21,
           KSM: 130,
-          LKSM: 131,
-          // Reserve for XBTC = 132
-          CASH: 140
+          DOT: 131
         }
       }
     }
@@ -179,16 +154,13 @@ const versioned: OverrideVersionedType[] = [
       ...poolIdV1,
       TokenSymbol: {
         _enum: {
-          ACA: 0,
-          AUSD: 1,
-          DOT: 2,
-          LDOT: 3,
+          SEL: 0,
+          KUSD: 1,
+          LSEL: 2,
           RENBTC: 20,
-          CASH: 21,
-          KAR: 128,
-          KUSD: 129,
+          DAI: 21,
           KSM: 130,
-          LKSM: 131
+          DOT: 131
         }
       }
     }
