@@ -54,7 +54,7 @@ export class InternalError extends JSONRPCError {
     super(
       `internal JSON-RPC error ${
         data && `[${data}]`
-      }. More info: https://evmdocs.selendra.network/reference/common-errors`,
+      }. More info: https://github.com/selendra/selendra.js/issue`,
       -32603
     );
   }

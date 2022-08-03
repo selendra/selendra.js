@@ -31,7 +31,8 @@ LOCAL_MODE=1 yarn start
 | SUBQL_URL          | --subql                  | undefined           | subquery graphql-engine service url, usually http://localhost:3001                                      |
 | HTTP_PORT          | -h, --http-port          | 8545                | HTTP port for requests                                                                                  |
 | WS_PORT            | -w, --ws-port            | 3331                | WS port for requests                                                                                    |
-| MAX_CACHE_SIZE     | --cache-size             | 200                 | max number of blocks that lives in the cache [more info](https://evmdocs.selendra.network/network/network) |
+| MAX_CACHE_SIZE     | --cache-size             | 200                 | max number of blocks that lives in the cache
+
 | MAX_BATCH_SIZE     | --max-batch-size         | 50                  | max batch size for RPC request                                                                          |
 | STORAGE_CACHE_SIZE | --max-storage-size       | 5000                | max storage cache size                                                                                  |
 | SAFE_MODE          | -s, --safe               | 0                   | if enabled, TX and logs can only be found after they are finalized                                      |
@@ -97,8 +98,8 @@ These are ETH compatible RPCs, the interface and functionalities match https://e
 
 ### Custom RPCs
 These are EVM+ custom RPCs that only exist on Selendra
-- `eth_getEthGas`: calculate eth transaction gas params from substrate gas params. More details please refer [here](https://evmdocs.selendra.network/network/gas-parameters)]
-- `eth_getEthResources`: calculate eth transaction gas params from transaction details, params: [TransactionRequest](https://docs.ethers.io/v5/api/providers/types/#providers-TransactionRequest)
+- `eth_getEthGas`: calculate eth transaction gas params from substrate gas params.
+- `eth_getEthResources`: calculate eth transaction gas params from transaction details
 - `net_indexer`: get subql indexer metadata
 - `net_cacheInfo`: get the cache info
 - `net_isSafeMode`: check if this RPC is running in safe mode

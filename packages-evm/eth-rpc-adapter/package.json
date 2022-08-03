@@ -3,7 +3,7 @@
   "version": "1.2.2",
   "main": "lib/index.js",
   "license": "MIT",
-  "author": "hello@selendra <info@selendra.org>",
+  "author": "info@selendra <info@selendra.org>",
   "bin": "./bin/eth-rpc-adapter.js",
   "scripts": {
     "build": "heft build --clean",
