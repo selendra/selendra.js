@@ -1,0 +1,9 @@
+[submodule "hardhat"]
+	path = examples/hardhat-tutorials
+	url = https://github.com/selendra/hardhat-tutorials.git
+[submodule "truffle"]
+	path = examples/truffle-tutorials
+	url = https://github.com/selendra/truffle-tutorials.git
+[submodule "waffle"]
+	path = examples/waffle-tutorials
+	url = https://github.com/selendra/waffle-tutorials.git

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.55.0",
+  "pnpmVersion": "6.7.1",
+  "pnpmOptions": {
+    "useWorkspaces": true
+  },
+
+  "nodeSupportedVersionRange": ">=14.15.0",
+  "ensureConsistentVersions": true,
+  "projectFolderMaxDepth": 5,
+  "gitPolicy": {
+  },
+
+  "repository": {
+    "url": "git@github.com:selendra/selendra.js.git"
+  },
+  "eventHooks": {
+    "preRushInstall": [
+    ],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+  "variants": [
+  ],
+  "projects": [
+    {
+      "packageName": "@selendra/eth-rpc-adapter",
+      "projectFolder": "eth-rpc-adapter",
+      "reviewCategory": "production",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@selendra/eth-providers",
+      "projectFolder": "eth-providers",
+      "reviewCategory": "production",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@selendra/eth-transactions",
+      "projectFolder": "eth-transactions",
+      "reviewCategory": "production",
+      "shouldPublish": true
+    }
+  ]
+}

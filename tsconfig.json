@@ -1,6 +1,7 @@
 {
   "extends": "@open-web3/dev-config/config/tsconfig.json",
   "exclude": [
+    "packages-evm/*",
     "build/**/*",
     "**/build/**/*"
   ],
