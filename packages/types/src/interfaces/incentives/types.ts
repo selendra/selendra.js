@@ -3,7 +3,6 @@
 
 import type { Enum } from '@polkadot/types-codec';
 import type { CurrencyId } from '@selendra/types/interfaces/primitives';
-import type { AccountId } from '@selendra/types/interfaces/runtime';
 
 /** @name PoolId */
 export interface PoolId extends Enum {
@@ -20,12 +19,9 @@ export interface PoolIdV0 extends Enum {
   readonly asLoansIncentive: CurrencyId;
   readonly isDexIncentive: boolean;
   readonly asDexIncentive: CurrencyId;
-  readonly isHomaIncentive: boolean;
   readonly isDexSaving: boolean;
   readonly asDexSaving: CurrencyId;
-  readonly isHomaValidatorAllowance: boolean;
-  readonly asHomaValidatorAllowance: AccountId;
-  readonly type: 'LoansIncentive' | 'DexIncentive' | 'HomaIncentive' | 'DexSaving' | 'HomaValidatorAllowance';
+  readonly type: 'LoansIncentive' | 'DexIncentive' | 'DexSaving';
 }
 
 export type PHANTOM_INCENTIVES = 'incentives';

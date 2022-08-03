@@ -11,9 +11,7 @@ export default {
       _enum: {
         LoansIncentive: 'CurrencyId',
         DexIncentive: 'CurrencyId',
-        HomaIncentive: 'Null',
         DexSaving: 'CurrencyId',
-        HomaValidatorAllowance: 'AccountId'
       }
     }
   }

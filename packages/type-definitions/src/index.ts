@@ -11,7 +11,6 @@ import collatorSelection from './collatorSelection';
 import incentives from './incentives';
 import loans from './loans';
 import nft from './nft';
-import nomineesElection from './nomineesElection';
 import primitives from './primitives';
 
 // ecosystem
@@ -41,7 +40,6 @@ const selendraDefs = {
   incentives,
   loans,
   nft,
-  nomineesElection,
   runtime,
   support,
 

@@ -1,6 +1,6 @@
 {
   "name": "@selendra/types",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Polkadot.js type definations for Selendra",
   "main": "index.js",
   "author": "Selendra <info@selendra.org>",
@@ -18,7 +18,7 @@
     "@babel/runtime": "^7.10.2",
     "@open-web3/api-mobx": "^1.1.4",
     "@open-web3/orml-types": "^1.1.4",
-    "@selendra/type-definitions": "1.2.1"
+    "@selendra/type-definitions": "1.2.2"
   },
   "devDependencies": {
     "@polkadot/api": "^8.5.1",

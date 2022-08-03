@@ -3805,7 +3805,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@selendra/type-definitions@1.2.1, @selendra/type-definitions@workspace:packages/type-definitions":
+"@selendra/type-definitions@1.2.2, @selendra/type-definitions@workspace:packages/type-definitions":
   version: 0.0.0-use.local
   resolution: "@selendra/type-definitions@workspace:packages/type-definitions"
   dependencies:
@@ -3813,7 +3813,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@selendra/types@1.2.1, @selendra/types@workspace:packages/types":
+"@selendra/type-definitions@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@selendra/type-definitions@npm:1.2.1"
+  dependencies:
+    "@open-web3/orml-type-definitions": ^1.1.4
+  checksum: 9dcff60d229b5487661fbca3610317bbfd5a329f51f46a52b343e7130797cca7bcae8608e0d668e5866b2014d6c7810532efba41ff04ef7137c96ce73272d4a5
+  languageName: node
+  linkType: hard
+
+"@selendra/types@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@selendra/types@npm:1.2.1"
+  dependencies:
+    "@babel/runtime": ^7.10.2
+    "@open-web3/api-mobx": ^1.1.4
+    "@open-web3/orml-types": ^1.1.4
+    "@selendra/type-definitions": 1.2.1
+  peerDependencies:
+    "@polkadot/api": ">=8"
+  checksum: 584c30cc311c770913fbea7749b088250657b69a40e13638844226f3ae1268ff9a0a2b9ee37a9f093a123a5bb8892c65a44a62e535675366bce5ffe91e007a25
+  languageName: node
+  linkType: hard
+
+"@selendra/types@workspace:packages/types":
   version: 0.0.0-use.local
   resolution: "@selendra/types@workspace:packages/types"
   dependencies:
@@ -3823,7 +3846,7 @@ __metadata:
     "@polkadot/api": ^8.5.1
     "@polkadot/typegen": ^8.5.1
     "@polkadot/types": ^8.5.1
-    "@selendra/type-definitions": 1.2.1
+    "@selendra/type-definitions": 1.2.2
     "@types/websocket": ^1.0.0
     websocket: ^1.0.31
   peerDependencies:

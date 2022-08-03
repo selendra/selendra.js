@@ -11,7 +11,6 @@ const POLKADOT_KNOWN_ORIGINS: Record<string, string> = {
 const SELENDRA_KNOWN_ORIGINS: Record<string, string> = {
   GeneralCouncil: 'CollectiveOrigin',
   FunanCouncil: 'CollectiveOrigin',
-  HomaCouncil: 'CollectiveOrigin',
   Authority: 'DelayedOrigin'
 };
 

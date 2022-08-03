@@ -240,9 +240,7 @@
         "_enum": {
             "LoansIncentive": "CurrencyId",
             "DexIncentive": "CurrencyId",
-            "HomaIncentive": "Null",
-            "DexSaving": "CurrencyId",
-            "HomaValidatorAllowance": "AccountId"
+            "DexSaving": "CurrencyId"
         }
     },
     "Position": {
@@ -285,16 +283,6 @@
         "totalIssuance": "TokenId",
         "owner": "AccountId",
         "data": "ClassData"
-    },
-    "NomineeId": "AccountId",
-    "HomaUnlockChunk": {
-        "value": "Balance",
-        "era": "EraIndex"
-    },
-    "BondingLedger": {
-        "total": "Balance",
-        "active": "Balance",
-        "unlocking": "Vec<HomaUnlockChunk>"
     },
     "OracleKey": "CurrencyId",
     "AsOriginId": "AuthoritysOriginId",

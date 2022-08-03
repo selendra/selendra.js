@@ -44,7 +44,6 @@ const poolIdV0 = {
       Loans: 'CurrencyId',
       DexIncentive: 'CurrencyId',
       DexSaving: 'CurrencyId',
-      Homa: 'Null'
     }
   }
 };
@@ -54,9 +53,7 @@ const poolIdV1 = {
     _enum: {
       LoansIncentive: 'CurrencyId',
       DexIncentive: 'CurrencyId',
-      HomaIncentive: 'Null',
       DexSaving: 'CurrencyId',
-      HomaValidatorAllowance: 'AccountId'
     }
   },
   // for orml-reward types
