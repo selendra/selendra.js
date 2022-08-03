@@ -1,9 +1,9 @@
 {
   "name": "@selendra/eth-providers",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "lib/index.js",
   "license": "MIT",
-  "author": "Selendra Developers <hello@selendra.network>",
+  "author": "Selendra Developers <info@selendra.org>",
   "scripts": {
     "build": "heft build --clean",
     "build:watch": "heft build",
@@ -34,7 +34,7 @@
     "@polkadot/util": "^9.0.1",
     "@polkadot/util-crypto": "^9.0.1",
     "@selendra/eth-transactions": "workspace:*",
-    "@selendra/types": "1.2.1",
+    "@selendra/types": "1.2.2",
     "ethers": "~5.5.0",
     "graphql": "~16.0.1",
     "graphql-request": "~3.6.1",

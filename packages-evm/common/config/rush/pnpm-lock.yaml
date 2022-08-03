@@ -28,7 +28,7 @@ importers:
       '@rushstack/eslint-config': ~2.5.4
       '@rushstack/heft': ~0.44.13
       '@selendra/eth-transactions': workspace:*
-      '@selendra/types': 1.2.1
+      '@selendra/types': 1.2.2
       '@sinonjs/fake-timers': ~9.1.1
       '@types/bn.js': ~5.1.0
       '@types/chai': ~4.2.22
@@ -69,7 +69,7 @@ importers:
       '@polkadot/util': 9.7.2
       '@polkadot/util-crypto': 9.7.2
       '@selendra/eth-transactions': link:../eth-transactions
-      '@selendra/types': 1.2.1_@polkadot+api@8.1.1
+      '@selendra/types': 1.2.2_@polkadot+api@8.1.1
       ethers: 5.5.4
       graphql: 16.0.1
       graphql-request: 3.6.1_graphql@16.0.1
@@ -1493,14 +1493,14 @@ packages:
   /@scure/base/1.1.1:
     resolution: {integrity: sha512-ZxOhsSyxYwLJj3pLZCefNitxsj093tb2vq90mp2txoYeBqbcjDjqFhyM8eUjq/uFm6zJ+mUuqxlS2FkuSY1MTA==}
 
-  /@selendra/type-definitions/1.2.1:
-    resolution: {integrity: sha512-wL7LS34zybPn2mbbzXQXbO4S0ZEx09Q4mgUqdsmV8oYkWTqeef/5e0Vsq8rxNQxyzs9SfQx/UL+XHVHTn1QJMg==}
+  /@selendra/type-definitions/1.2.2:
+    resolution: {integrity: sha512-WEvb70fuFelDRd4WeYXNocteMfLBxpFmd69T3LWE/2Wd8ORBm8k27ZpJn248+V1pH3+yQ6oV6C2ppEUlqGq0eQ==}
     dependencies:
       '@open-web3/orml-type-definitions': 1.1.4
     dev: false
 
-  /@selendra/types/1.2.1_@polkadot+api@8.1.1:
-    resolution: {integrity: sha512-VWGoBBxGuB3V0Ls4wbLCI9H/YNcVcON3lw2L6jVd2TD4tM/HPTTUlN7Z3yXHOXfXw18iiAwRo+BCoHRljTUCbA==}
+  /@selendra/types/1.2.2_@polkadot+api@8.1.1:
+    resolution: {integrity: sha512-Mr+xEkzfpSf1Yyxofst4EEeGSRe8I0Xa+4hfXiG4N7yTEXTh4u5NVm71h//uOFfPUnA65Tb8STTMG6hYDSxZZA==}
     peerDependencies:
       '@polkadot/api': '>=8'
     dependencies:
@@ -1508,7 +1508,7 @@ packages:
       '@open-web3/api-mobx': 1.1.4_@polkadot+api@8.1.1
       '@open-web3/orml-types': 1.1.4_@polkadot+api@8.1.1
       '@polkadot/api': 8.1.1
-      '@selendra/type-definitions': 1.2.1
+      '@selendra/type-definitions': 1.2.2
     dev: false
 
   /@sinonjs/commons/1.8.3:

@@ -36,7 +36,7 @@
     "build": "yarn build:interfaces && polkadot-dev-build-ts",
     "build:release": "polkadot-ci-ghact-build",
     "build:interfaces": "node -r ts-node/register -r tsconfig-paths/register packages/types/scripts/generate.ts && node -r ts-node/register -r tsconfig-paths/register packages/type-definitions/scripts/generate.ts",
-    "build:evm": "cd packages-evm && rush update && rush build -t @selendra/eth-rpc-adapter",
+    "build:evm": "cd packages-evm && rush update && rush build",
     "lint": "polkadot-dev-run-lint",
     "clean": "polkadot-dev-clean-build",
     "postinstall": "polkadot-dev-yarn-only",

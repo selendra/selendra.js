@@ -1,9 +1,9 @@
 {
   "name": "@selendra/eth-rpc-adapter",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "lib/index.js",
   "license": "MIT",
-  "author": "Selendra Developers <hello@selendra.network>",
+  "author": "hello@selendra <info@selendra.org>",
   "bin": "./bin/eth-rpc-adapter.js",
   "scripts": {
     "build": "heft build --clean",
