@@ -3,8 +3,13 @@ import { ApiPromise, WsProvider, Keyring } from "@polkadot/api";
 import { create_signature } from "./create_signature";
 import { evm_balances, evm_address } from "./evm";
 
-export async function bindaccount(substrateMnenonic: string, privateKey: string, rpcProverider: string) {
-    const provider = new WsProvider("wss://rpc-testnet.selendra.org");
+export async function bindaccount(
+    substrateMnenonic: string,
+    privateKey: string,
+    substrateProvider:string,
+    evmProverider: string
+  ){
+    const provider = new WsProvider(substrateProvider);
     const api = new ApiPromise(options({ provider }));
     await api.isReadyOrError;
 
@@ -17,7 +22,7 @@ export async function bindaccount(substrateMnenonic: string, privateKey: string,
     const genesisHash:string = api.genesisHash.toString();
     const chainId: number = parseInt(api.consts.evmAccounts.chainId.toString());
     const evmAddress: string = evm_address(privateKey);
-    const balance:number = await evm_balances(rpcProverider, evmAddress);
+    const balance:number = await evm_balances(evmProverider, evmAddress);
 
     if (balance > 0){
       throw new Error('Account already exit, please use new evm account');
