@@ -2,7 +2,7 @@
   "name": "@selendra/bind_account",
   "version": "1.0.0",
   "description": "Substrate-Evm account binding",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "Selendra <info@selendra.org>",
   "license": "Apache-2.0",
   "scripts": {

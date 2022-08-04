@@ -1,11 +1,26 @@
+
+
 {
+  "ts-node": {
+    "transpileOnly": true
+  },
   "compilerOptions": {
-    "outDir": "build",
+    "outDir": "lib",
     "rootDirs": ["src", "/node_modules"],
-    "target": "es2019",
-    "module": "CommonJS",
-    "baseUrl": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2020",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
     "resolveJsonModule": true,
-    "skipLibCheck": true,
-  }
+    "sourceMap": true,
+    "baseUrl": ".",
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules/*"]
 }
