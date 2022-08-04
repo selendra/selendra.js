@@ -23,7 +23,7 @@ import { WsProvider } from '@polkadot/rpc-provider';
 import { options } from '@selendra/api';
 
 async function main() {
-    const provider = new WsProvider('rpc-mainnet.selendra.org');
+    const provider = new WsProvider('wss://rpc-testnet.selendra.org');
     const api = new ApiPromise(options({ provider }));
     await api.isReady;
 
@@ -40,7 +40,7 @@ import { options } from "@selendra/api";
 import { ApiPromise, WsProvider } from "@polkadot/api";
 
 async function main() {
-  const provider = new WsProvider("rpc-mainnet.selendra.org");
+  const provider = new WsProvider("wss://rpc-testnet.selendra.org");
   const api = new ApiPromise(options({ provider }));
   await api.isReadyOrError;
 
