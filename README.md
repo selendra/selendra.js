@@ -57,3 +57,5 @@ async function main() {
 
 main().then(() => process.exit(0));
 ```
+
+More examples [see here](https://github.com/selendra/selendra-tutorials/tree/master/api).
