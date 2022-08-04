@@ -33,7 +33,7 @@
     "@polkadot/types": "8.1.1",
     "@polkadot/util": "^9.0.1",
     "@polkadot/util-crypto": "^9.0.1",
-    "@selendra/eth-transactions": "1.2.4",
+    "@selendra/eth-transactions": "workspace:*",
     "@selendra/types": "1.2.4",
     "ethers": "~5.5.0",
     "graphql": "~16.0.1",
