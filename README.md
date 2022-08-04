@@ -6,17 +6,56 @@
 This library provides additional typing information for user to access Selendra by using [polkadot.js](https://github.com/polkadot-js/api).
 
 # Getting Started
-- Install rush package manger
+- [@selendra/api](https://github.com/selendra/selendra.js/blob/development/example.md)
+- [@selendra/eth-rpc-adapter](https://github.com/selendra/selendra.js/tree/development/packages-evm/eth-rpc-adapter)
+
+
+## [Selendra api](example.md)
+- Install dependencies
+
 ```bash
-npm install -g @microsoft/rush
+yarn add @polkadot/api @selendra/api
+```
+- Create API instance
+
+```bash
+import { ApiPromise } from '@polkadot/api';
+import { WsProvider } from '@polkadot/rpc-provider';
+import { options } from '@selendra/api';
+
+async function main() {
+    const provider = new WsProvider('rpc-mainnet.selendra.org');
+    const api = new ApiPromise(options({ provider }));
+    await api.isReady;
+
+    // use api
+}
+
+main()
 ```
 
-- Build evm
+### Examples
+- Simple Connect
 
 ```bash
-yarn run build:evm
-```
-- Run evm
-```bash
-yarn run evm
+import { options } from "@selendra/api";
+import { ApiPromise, WsProvider } from "@polkadot/api";
+
+async function main() {
+  const provider = new WsProvider("rpc-mainnet.selendra.org");
+  const api = new ApiPromise(options({ provider }));
+  await api.isReadyOrError;
+
+  const [chain, nodeName, nodeVersion] = await Promise.all([
+    api.rpc.system.chain(),
+    api.rpc.system.name(),
+    api.rpc.system.version(),
+  ]);
+
+  console.log(
+    `You are connected to chain ${chain} using ${nodeName} v${nodeVersion}`
+  );
+}
+
+main().then(() => process.exit(0));
 ```

@@ -2,17 +2,6 @@
 A node service that allows existing Ethereum dApp to be able to interact with [Selendra EVM](https://github.com/selendra/Selendra/tree/master/modules/evm).
 
 ## Run
-There are 3 ways to run an RPC adapter:
-- from npm package
-- from local build
-- from docker
-
-#### from npm package
-- run the server (should automagically install it)
-```
-LOCAL_MODE=1 npx @selendra/eth-rpc-adapter
-```
-
 #### from local build
 - build it locally
 ```
