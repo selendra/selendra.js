@@ -6,11 +6,10 @@
 This library provides additional typing information for user to access Selendra by using [polkadot.js](https://github.com/polkadot-js/api).
 
 # Getting Started
-- [@selendra/api](https://github.com/selendra/selendra.js/blob/development/example.md)
-- [@selendra/eth-rpc-adapter](https://github.com/selendra/selendra.js/tree/development/packages-evm/eth-rpc-adapter)
+- For **eth-rpc-adapter** [see here](https://github.com/selendra/selendra.js/tree/development/packages-evm/eth-rpc-adapter)
 
 
-## [Selendra api](example.md)
+## Examples
 - Install dependencies
 
 ```bash
@@ -34,7 +33,6 @@ async function main() {
 main()
 ```
 
-### Examples
 - Simple Connect
 
 ```bash
