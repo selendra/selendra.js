@@ -3,7 +3,6 @@
   "rushVersion": "5.55.0",
   "pnpmVersion": "6.7.1",
   "pnpmOptions": {
-    "useWorkspaces": true
   },
 
   "nodeSupportedVersionRange": ">=14.15.0",

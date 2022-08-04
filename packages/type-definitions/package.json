@@ -1,6 +1,6 @@
 {
   "name": "@selendra/type-definitions",
-  "version": "1.2.3",
+  "version": "1.2.5",
   "description": "Polkadot.js type definations for Selendra",
   "main": "index.js",
   "author": "Selendra <info@selendra.org>",

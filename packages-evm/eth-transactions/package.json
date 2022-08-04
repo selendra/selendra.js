@@ -1,9 +1,9 @@
 {
   "name": "@selendra/eth-transactions",
-  "version": "1.2.2",
+  "version": "1.2.5",
   "main": "lib/index.js",
   "license": "MIT",
-  "author": "Selendra Developers <info@selendra.org>",
+  "author": "Selendra <info@selendra.org>",
   "scripts": {
     "build": "heft build --clean",
     "build:watch": "heft build",

@@ -3690,14 +3690,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@selendra/api-derive@1.2.3, @selendra/api-derive@workspace:packages/api-derive":
+"@selendra/api-derive@1.2.4, @selendra/api-derive@workspace:packages/api-derive":
   version: 0.0.0-use.local
   resolution: "@selendra/api-derive@workspace:packages/api-derive"
   dependencies:
     "@babel/runtime": ^7.10.2
     "@open-web3/orml-types": ^1.1.4
     "@polkadot/api-derive": ^8.5.1
-    "@selendra/types": 1.2.3
+    "@selendra/types": 1.2.4
   languageName: unknown
   linkType: soft
 
@@ -3709,8 +3709,8 @@ __metadata:
     "@open-web3/orml-api-derive": ^1.1.4
     "@polkadot/api": ^8.5.1
     "@polkadot/rpc-core": ^8.5.1
-    "@selendra/api-derive": 1.2.3
-    "@selendra/types": 1.2.3
+    "@selendra/api-derive": 1.2.4
+    "@selendra/types": 1.2.4
   peerDependencies:
     "@polkadot/api": ">=8"
     "@polkadot/types": ">=8"
@@ -3742,7 +3742,7 @@ __metadata:
     "@rushstack/eslint-config": ~2.5.4
     "@rushstack/heft": ~0.44.13
     "@selendra/eth-transactions": "workspace:*"
-    "@selendra/types": 1.2.2
+    "@selendra/types": 1.2.4
     "@sinonjs/fake-timers": ~9.1.1
     "@types/bn.js": ~5.1.0
     "@types/chai": ~4.2.22
@@ -3844,7 +3844,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@selendra/type-definitions@1.2.3, @selendra/type-definitions@workspace:packages/type-definitions":
+"@selendra/type-definitions@npm:1.2.4":
+  version: 1.2.4
+  resolution: "@selendra/type-definitions@npm:1.2.4"
+  dependencies:
+    "@open-web3/orml-type-definitions": ^1.1.4
+  checksum: e91e98025b018e9c210bc42e235cd3906175de594d6c52d4d3d0b433d4b2e62ef001ab0dae2668d863774efbf6c3b8e2a57cc185d85a598886427bb11bf6f203
+  languageName: node
+  linkType: hard
+
+"@selendra/type-definitions@workspace:packages/type-definitions":
   version: 0.0.0-use.local
   resolution: "@selendra/type-definitions@workspace:packages/type-definitions"
   dependencies:
@@ -3852,16 +3861,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@selendra/type-definitions@npm:1.2.2":
-  version: 1.2.2
-  resolution: "@selendra/type-definitions@npm:1.2.2"
-  dependencies:
-    "@open-web3/orml-type-definitions": ^1.1.4
-  checksum: caed22d8f51e0ac50eb1a01232a025f72e4e77606e57ff35fc9aeee0024e0e90a760ba7681a6a7e4caf121cdaf7cc8da926547196793f072f3524dcc12821780
-  languageName: node
-  linkType: hard
-
-"@selendra/types@1.2.3, @selendra/types@workspace:packages/types":
+"@selendra/types@1.2.4, @selendra/types@workspace:packages/types":
   version: 0.0.0-use.local
   resolution: "@selendra/types@workspace:packages/types"
   dependencies:
@@ -3871,27 +3871,13 @@ __metadata:
     "@polkadot/api": ^8.5.1
     "@polkadot/typegen": ^8.5.1
     "@polkadot/types": ^8.5.1
-    "@selendra/type-definitions": 1.2.3
+    "@selendra/type-definitions": 1.2.4
     "@types/websocket": ^1.0.0
     websocket: ^1.0.31
   peerDependencies:
     "@polkadot/api": ">=8"
   languageName: unknown
   linkType: soft
-
-"@selendra/types@npm:1.2.2":
-  version: 1.2.2
-  resolution: "@selendra/types@npm:1.2.2"
-  dependencies:
-    "@babel/runtime": ^7.10.2
-    "@open-web3/api-mobx": ^1.1.4
-    "@open-web3/orml-types": ^1.1.4
-    "@selendra/type-definitions": 1.2.2
-  peerDependencies:
-    "@polkadot/api": ">=8"
-  checksum: e9100a867e7ea6e6b33af7d29bbdc14ccf72536b9a8b6773ea3357596022b0bdb11cb56b03faa97a2f381540c5c8e90d847f421b0dd64776534db6bfd021c590
-  languageName: node
-  linkType: hard
 
 "@sindresorhus/is@npm:^0.14.0":
   version: 0.14.0

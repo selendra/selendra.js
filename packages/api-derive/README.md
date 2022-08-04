@@ -1,3 +1,3 @@
 # @selendra/api-derive
 
-Additional polkadot.js derives for Selendra Network
+Additional polkadot.js derives for Selendra
