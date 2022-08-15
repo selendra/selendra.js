@@ -1,6 +1,6 @@
 {
   "name": "@selendra/eth-providers",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "main": "lib/index.js",
   "license": "MIT",
   "author": "Selendra Developers <info@selendra.org>",

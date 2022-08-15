@@ -42,6 +42,12 @@
       "projectFolder": "eth-transactions",
       "reviewCategory": "production",
       "shouldPublish": true
+    },
+    {
+      "packageName": "@selendra/selendra_evm",
+      "projectFolder": "selendra_evm",
+      "reviewCategory": "production",
+      "shouldPublish": true
     }
   ]
 }
