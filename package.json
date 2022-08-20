@@ -5,8 +5,7 @@
     "yarn": "^1.10.1"
   },
   "workspaces": [
-    "packages/*",
-    "packages-evm/*"
+    "packages/*"
   ],
   "resolutions": {
     "@polkadot/api": "^8.5.1",
@@ -36,14 +35,12 @@
     "build": "yarn build:interfaces && polkadot-dev-build-ts",
     "build:release": "polkadot-ci-ghact-build",
     "build:interfaces": "node -r ts-node/register -r tsconfig-paths/register packages/types/scripts/generate.ts && node -r ts-node/register -r tsconfig-paths/register packages/type-definitions/scripts/generate.ts",
-    "build:evm": "cd packages-evm && rush update && rush build",
     "lint": "polkadot-dev-run-lint",
     "clean": "polkadot-dev-clean-build",
     "postinstall": "polkadot-dev-yarn-only",
     "test": "polkadot-dev-run-test --coverage --forceExit",
     "check-deps": "./node_modules/@open-web3/util/scripts/check-deps.js yarn.lock @polkadot/ @open-web3/",
-    "update-metadata": "ts-node --project ./tsconfig.json packages/types/scripts/updateMetadata.ts",
-    "evm": "cd packages-evm/eth-rpc-adapter && yarn run start"
+    "update-metadata": "ts-node --project ./tsconfig.json packages/types/scripts/updateMetadata.ts"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
